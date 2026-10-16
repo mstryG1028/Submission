@@ -23,6 +23,7 @@ import com.example.demo_task.service.FeedbackService;
 @CrossOrigin(origins = "http://localhost:5173")
 public class FeedbackController {
 
+
 	private final FeedbackService feedbackService;
 
 	public FeedbackController(FeedbackService feedbackService) {
